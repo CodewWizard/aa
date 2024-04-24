@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders correctly 1`] = `
+<nav
+  className="border-end bgWhite commonShadow active"
+  id="sidebar"
+>
+  <ul
+    className="list-unstyled components"
+  >
+    <li
+      className="dropdown active"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <a
+        alt=""
+        className="dashboard"
+        href="/dashboard"
+        legacyBehavior={true}
+        name="dashboard"
+        passHref={true}
+      >
+        <img
+          alt="Dashboard"
+          className="svg align-baseline"
+          src="/path/to/dashboard.svg"
+        />
+        <span>
+          Dashboard
+        </span>
+      </a>
+    </li>
+    <li
+      className="dropdown"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <a
+        alt=""
+        className="dropdown-toggle"
+        href="/reports"
+        legacyBehavior={true}
+        name="reports"
+        passHref={true}
+      >
+        <img
+          alt="Reports"
+          className="svg align-baseline"
+          src="/path/to/reports.svg"
+        />
+        <span>
+          Reports
+        </span>
+      </a>
+      <ul
+        className="collapse list-unstyled menu pagesubmenu"
+      >
+        <li>
+          <a
+            alt=""
+            href="/reports/sales"
+          >
+            Sales Report
+          </a>
+        </li>
+        <li>
+          <a
+            alt=""
+            href="/reports/expenses"
+          >
+            Expenses Report
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+`;

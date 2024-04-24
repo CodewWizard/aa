@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewFormAlerts renders correctly 1`] = `
+<a
+  className="btnStyle btnPrim display-block mb-10"
+  id="formsPopupBtn"
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+>
+  View Forms
+</a>
+`;

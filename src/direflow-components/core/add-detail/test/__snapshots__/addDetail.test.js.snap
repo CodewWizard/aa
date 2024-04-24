@@ -1,0 +1,1737 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot as expected 1`] = `
+<div
+  className="boxWrapper border-0 px-3 commonShadow"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="col-md-12"
+      >
+        <form
+          className="dynamic-form"
+          id="setViolationForm"
+          onSubmit={[Function]}
+        >
+          <div
+            className="formBox formBoxHgt mt-4"
+          >
+            <div
+              className="d-flex justify-content-between"
+            >
+              <h5
+                className="primaryColor3 graphik-Medium mb-3 commonHead commonHeadPadding"
+              >
+                Violation Details
+              </h5>
+            </div>
+            <div
+              className=""
+            >
+              <div
+                className="row align-items-center"
+              >
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="violationDate"
+                    >
+                      Violation Date*
+                         
+                    </label>
+                  </div>
+                  <div
+                    className="react-datetime-picker react-datetime-picker--closed react-datetime-picker--enabled inputText"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                  >
+                    <div
+                      className="react-datetime-picker__wrapper"
+                    >
+                      <div
+                        className="react-datetime-picker__inputGroup"
+                        onClick={[Function]}
+                      >
+                        <input
+                          disabled=""
+                          max="275760-09-13T05:30"
+                          min="0001-01-01T00:00"
+                          name="datetime"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          required={true}
+                          step={60}
+                          style={
+                            Object {
+                              "position": "absolute",
+                              "visibility": "hidden",
+                              "zIndex": "-999",
+                            }
+                          }
+                          type="datetime-local"
+                          value=""
+                        />
+                        <input
+                          autoComplete="off"
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__month"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={12}
+                          min={1}
+                          name="month"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={true}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__day"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={31}
+                          min={1}
+                          name="day"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={true}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__year"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={275760}
+                          min={1}
+                          name="year"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="----"
+                          required={true}
+                          step={1}
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                      <button
+                        className="react-datetime-picker__clear-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__clear-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="4"
+                            x2="15"
+                            y1="4"
+                            y2="15"
+                          />
+                          <line
+                            x1="15"
+                            x2="4"
+                            y1="4"
+                            y2="15"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        className="react-datetime-picker__calendar-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__calendar-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            fill="none"
+                            height="15"
+                            width="15"
+                            x="2"
+                            y="2"
+                          />
+                          <line
+                            x1="6"
+                            x2="6"
+                            y1="0"
+                            y2="4"
+                          />
+                          <line
+                            x1="13"
+                            x2="13"
+                            y1="0"
+                            y2="4"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="violationType"
+                    >
+                      Violation*
+                         
+                    </label>
+                  </div>
+                  <select
+                    className="inputText"
+                    disabled=""
+                    id="violationType"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    readOnly=""
+                    required={true}
+                    value=""
+                  >
+                    <option
+                      className="form-input"
+                      value=""
+                    >
+                      Please Select
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Accident-AF"
+                    >
+                      Accident At Fault
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Accident - NAF"
+                    >
+                      Accident Not At Fault
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Adm Action/DUI"
+                    >
+                      Adm Action/Refusal/DUI
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Agg Driving"
+                    >
+                      Agressive Driving
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Use Another Lic"
+                    >
+                      Allow Another to Use License/Mutilated
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Allow Mnr Oper"
+                    >
+                      Allow Minor to operate motor vehicle
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Assault"
+                    >
+                      Assault
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Attempt Elude"
+                    >
+                      Attempt to Elude Police
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Auto Felony Use"
+                    >
+                      Auto Used in commission of felony
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Brakes Reqd"
+                    >
+                      Brakes required
+                    </option>
+                    <option
+                      className="form-input"
+                      value="CMP < $1,000"
+                    >
+                      CMP &lt; $1,000
+                    </option>
+                    <option
+                      className="form-input"
+                      value="CMP >= $1,000"
+                    >
+                      CMP &gt;= $1,000
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Careless Drive"
+                    >
+                      Careless Driving
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Child Restraint"
+                    >
+                      Child Restraint Violation
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Crim Negl Homcd"
+                    >
+                      Criminally Negligent Homicide
+                    </option>
+                    <option
+                      className="form-input"
+                      value="DUI"
+                    >
+                      DUI - Alcohol and/or Drugs
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Defective exhst"
+                    >
+                      Defective exhaust
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Drv Vision Obs"
+                    >
+                      Drivers vision obscured
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Drv thru barrcd"
+                    >
+                      Driving through barricade/closed road
+                    </option>
+                    <option
+                      className="form-input"
+                      value="No Drivers Lic"
+                    >
+                      Driving while cancelled/No Drivers Lic
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Revoked Lic"
+                    >
+                      Driving while revoked/suspended
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Drv w/o Ins"
+                    >
+                      Driving without insurance
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Rpt Acc"
+                    >
+                      Failure to Report Accident
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Failure Signal"
+                    >
+                      Failure to Signal
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail to Stop"
+                    >
+                      Failure to Stop at Stop Sign
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Dim Lghts"
+                    >
+                      Failure to dim lights
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Heed Siren"
+                    >
+                      Failure to heed siren or blue lights
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Not Obey Traf"
+                    >
+                      Failure to obey trafic control/sign
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Stop RR"
+                    >
+                      Failure to stop at railroad crossing
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Yld R/W"
+                    >
+                      Failure to yield right of way
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Follow too clos"
+                    >
+                      Following too close
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Hours of Svc"
+                    >
+                      Hours of Service
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Illegal Towing"
+                    >
+                      Illegal towing
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Backin"
+                    >
+                      Improper Backing
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Equip"
+                    >
+                      Improper Equipment
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Ln Chg"
+                    >
+                      Improper Lane Usage/Lane Change
+                    </option>
+                    <option
+                      className="form-input"
+                    >
+                      Improper Parking
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Pass"
+                    >
+                      Improper Passing
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Turn"
+                    >
+                      Improper Turn
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improp Load"
+                    >
+                      Improper load (shift/spill)
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Tint"
+                    >
+                      Improper window tint
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Inexp ovr 18"
+                    >
+                      Inexperienced driver over 18
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Juvenile"
+                    >
+                      Juvenile/Administrative Action
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Left Scene Acc"
+                    >
+                      Left Scene of Accident
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Manslaughter"
+                    >
+                      Manslaughter-2nd Degree
+                    </option>
+                    <option
+                      className="form-input"
+                      value="No Tag"
+                    >
+                      No Tag or Improper Tag
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Obstr Traff"
+                    >
+                      Obstruction of traffic/Hwy loading
+                    </option>
+                    <option
+                      className="form-input"
+                      value="One-Way Street"
+                    >
+                      One-Way Street
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Oper Veh No Con"
+                    >
+                      Operating MV without owners consent
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Other Traffic"
+                    >
+                      Other-Moving and Traffic
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Other Non-Movin"
+                    >
+                      Other-Non-Moving nor traffic violation
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Pass School bus"
+                    >
+                      Passed stopped school bus
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Open Container"
+                    >
+                      Possessing open container alcohol/drugs
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Racing on Hwy"
+                    >
+                      Racing on Highway
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Reckless Drvg"
+                    >
+                      Reckless Driving
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Reckless Endgmt"
+                    >
+                      Reckless Endangerment
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Refused Chm Tst"
+                    >
+                      Refused Chemical Test
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Running Red Lt"
+                    >
+                      Running Red Light
+                    </option>
+                    <option
+                      className="form-input"
+                      value="SR-22"
+                    >
+                      SR-22
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Speeding"
+                    >
+                      Speeding
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Speed 0-18 over"
+                    >
+                      Speeding 1-18 over speed limit
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Spd 19-33 over"
+                    >
+                      Speeding 19-33 mph over limit
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Spd 34+ over"
+                    >
+                      Speeding 34+ mph over limit
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Tires"
+                    >
+                      Tires
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Wireless Device"
+                    >
+                      Unlawful Use of Wireless Device
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Unver Drv Rec"
+                    >
+                      Unverifiable driving record
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Veh Out of Svc"
+                    >
+                      Vehicle out of service
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Violating Restr"
+                    >
+                      Violating Restrictions
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Wrg Side Road"
+                    >
+                      Wrong Side of Road
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Youthful Offend"
+                    >
+                      Youthful offender
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="accidentWithViolation"
+                    >
+                      Acc W / Violation?*
+                         
+                    </label>
+                  </div>
+                  <select
+                    className="inputText"
+                    disabled=""
+                    id="accidentWithViolation"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    readOnly=""
+                    required={true}
+                    value=""
+                  >
+                    <option
+                      className="form-input"
+                      value=""
+                    >
+                      Please Select
+                    </option>
+                    <option
+                      className="form-input"
+                      value="No violation"
+                    >
+                      No violation
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Acc At Fault"
+                    >
+                      Acc At Fault
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Acc not at fault"
+                    >
+                      Acc not at fault
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="violationPoint"
+                    >
+                      Violation Point
+                         
+                    </label>
+                  </div>
+                  <input
+                    className="inputText"
+                    disabled="disabled"
+                    id="violationPoint"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    readOnly=""
+                    required={true}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      className="col-md-12 mt-3 text-center mb-4"
+    >
+      <button
+        className="btn btnStyle btnReject"
+        onClick={[Function]}
+        type="button"
+      >
+        Reset
+      </button>
+      <button
+        className="btn btnStyle btnPrim"
+        form="setViolationForm"
+        id="submitsetViolationForm"
+        type="submit"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="singleBox customDataTable alignBottTable"
+      >
+        <div
+          className="react-bootstrap-table"
+        >
+          <table
+            className="table"
+          >
+            <thead>
+              <tr>
+                <th
+                  style={
+                    Object {
+                      "width": "18%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Date
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "30%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Description
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "15%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  At Fault
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "10%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Points
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "10%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Source
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "18%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Actions
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing & matches snapshot as expected 1`] = `
+<div
+  className="boxWrapper border-0 px-3 commonShadow"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="col-md-12"
+      >
+        <form
+          className="dynamic-form"
+          id="setViolationForm"
+          onSubmit={[Function]}
+        >
+          <div
+            className="formBox formBoxHgt mt-4"
+          >
+            <div
+              className="d-flex justify-content-between"
+            >
+              <h5
+                className="primaryColor3 graphik-Medium mb-3 commonHead commonHeadPadding"
+              >
+                Violation Details
+              </h5>
+            </div>
+            <div
+              className=""
+            >
+              <div
+                className="row align-items-center"
+              >
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="violationDate"
+                    >
+                      Violation Date*
+                         
+                    </label>
+                  </div>
+                  <div
+                    className="react-datetime-picker react-datetime-picker--closed react-datetime-picker--enabled inputText"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                  >
+                    <div
+                      className="react-datetime-picker__wrapper"
+                    >
+                      <div
+                        className="react-datetime-picker__inputGroup"
+                        onClick={[Function]}
+                      >
+                        <input
+                          disabled=""
+                          max="275760-09-13T05:30"
+                          min="0001-01-01T00:00"
+                          name="datetime"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          required={true}
+                          step={60}
+                          style={
+                            Object {
+                              "position": "absolute",
+                              "visibility": "hidden",
+                              "zIndex": "-999",
+                            }
+                          }
+                          type="datetime-local"
+                          value=""
+                        />
+                        <input
+                          autoComplete="off"
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__month"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={12}
+                          min={1}
+                          name="month"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={true}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__day"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={31}
+                          min={1}
+                          name="day"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={true}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__year"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={275760}
+                          min={1}
+                          name="year"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="----"
+                          required={true}
+                          step={1}
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                      <button
+                        className="react-datetime-picker__clear-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__clear-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="4"
+                            x2="15"
+                            y1="4"
+                            y2="15"
+                          />
+                          <line
+                            x1="15"
+                            x2="4"
+                            y1="4"
+                            y2="15"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        className="react-datetime-picker__calendar-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__calendar-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            fill="none"
+                            height="15"
+                            width="15"
+                            x="2"
+                            y="2"
+                          />
+                          <line
+                            x1="6"
+                            x2="6"
+                            y1="0"
+                            y2="4"
+                          />
+                          <line
+                            x1="13"
+                            x2="13"
+                            y1="0"
+                            y2="4"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="violationType"
+                    >
+                      Violation*
+                         
+                    </label>
+                  </div>
+                  <select
+                    className="inputText"
+                    disabled=""
+                    id="violationType"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    readOnly=""
+                    required={true}
+                    value=""
+                  >
+                    <option
+                      className="form-input"
+                      value=""
+                    >
+                      Please Select
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Accident-AF"
+                    >
+                      Accident At Fault
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Accident - NAF"
+                    >
+                      Accident Not At Fault
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Adm Action/DUI"
+                    >
+                      Adm Action/Refusal/DUI
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Agg Driving"
+                    >
+                      Agressive Driving
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Use Another Lic"
+                    >
+                      Allow Another to Use License/Mutilated
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Allow Mnr Oper"
+                    >
+                      Allow Minor to operate motor vehicle
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Assault"
+                    >
+                      Assault
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Attempt Elude"
+                    >
+                      Attempt to Elude Police
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Auto Felony Use"
+                    >
+                      Auto Used in commission of felony
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Brakes Reqd"
+                    >
+                      Brakes required
+                    </option>
+                    <option
+                      className="form-input"
+                      value="CMP < $1,000"
+                    >
+                      CMP &lt; $1,000
+                    </option>
+                    <option
+                      className="form-input"
+                      value="CMP >= $1,000"
+                    >
+                      CMP &gt;= $1,000
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Careless Drive"
+                    >
+                      Careless Driving
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Child Restraint"
+                    >
+                      Child Restraint Violation
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Crim Negl Homcd"
+                    >
+                      Criminally Negligent Homicide
+                    </option>
+                    <option
+                      className="form-input"
+                      value="DUI"
+                    >
+                      DUI - Alcohol and/or Drugs
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Defective exhst"
+                    >
+                      Defective exhaust
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Drv Vision Obs"
+                    >
+                      Drivers vision obscured
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Drv thru barrcd"
+                    >
+                      Driving through barricade/closed road
+                    </option>
+                    <option
+                      className="form-input"
+                      value="No Drivers Lic"
+                    >
+                      Driving while cancelled/No Drivers Lic
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Revoked Lic"
+                    >
+                      Driving while revoked/suspended
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Drv w/o Ins"
+                    >
+                      Driving without insurance
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Rpt Acc"
+                    >
+                      Failure to Report Accident
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Failure Signal"
+                    >
+                      Failure to Signal
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail to Stop"
+                    >
+                      Failure to Stop at Stop Sign
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Dim Lghts"
+                    >
+                      Failure to dim lights
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Heed Siren"
+                    >
+                      Failure to heed siren or blue lights
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Not Obey Traf"
+                    >
+                      Failure to obey trafic control/sign
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Stop RR"
+                    >
+                      Failure to stop at railroad crossing
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Fail Yld R/W"
+                    >
+                      Failure to yield right of way
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Follow too clos"
+                    >
+                      Following too close
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Hours of Svc"
+                    >
+                      Hours of Service
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Illegal Towing"
+                    >
+                      Illegal towing
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Backin"
+                    >
+                      Improper Backing
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Equip"
+                    >
+                      Improper Equipment
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Ln Chg"
+                    >
+                      Improper Lane Usage/Lane Change
+                    </option>
+                    <option
+                      className="form-input"
+                    >
+                      Improper Parking
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Pass"
+                    >
+                      Improper Passing
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Turn"
+                    >
+                      Improper Turn
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improp Load"
+                    >
+                      Improper load (shift/spill)
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Improper Tint"
+                    >
+                      Improper window tint
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Inexp ovr 18"
+                    >
+                      Inexperienced driver over 18
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Juvenile"
+                    >
+                      Juvenile/Administrative Action
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Left Scene Acc"
+                    >
+                      Left Scene of Accident
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Manslaughter"
+                    >
+                      Manslaughter-2nd Degree
+                    </option>
+                    <option
+                      className="form-input"
+                      value="No Tag"
+                    >
+                      No Tag or Improper Tag
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Obstr Traff"
+                    >
+                      Obstruction of traffic/Hwy loading
+                    </option>
+                    <option
+                      className="form-input"
+                      value="One-Way Street"
+                    >
+                      One-Way Street
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Oper Veh No Con"
+                    >
+                      Operating MV without owners consent
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Other Traffic"
+                    >
+                      Other-Moving and Traffic
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Other Non-Movin"
+                    >
+                      Other-Non-Moving nor traffic violation
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Pass School bus"
+                    >
+                      Passed stopped school bus
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Open Container"
+                    >
+                      Possessing open container alcohol/drugs
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Racing on Hwy"
+                    >
+                      Racing on Highway
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Reckless Drvg"
+                    >
+                      Reckless Driving
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Reckless Endgmt"
+                    >
+                      Reckless Endangerment
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Refused Chm Tst"
+                    >
+                      Refused Chemical Test
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Running Red Lt"
+                    >
+                      Running Red Light
+                    </option>
+                    <option
+                      className="form-input"
+                      value="SR-22"
+                    >
+                      SR-22
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Speeding"
+                    >
+                      Speeding
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Speed 0-18 over"
+                    >
+                      Speeding 1-18 over speed limit
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Spd 19-33 over"
+                    >
+                      Speeding 19-33 mph over limit
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Spd 34+ over"
+                    >
+                      Speeding 34+ mph over limit
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Tires"
+                    >
+                      Tires
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Wireless Device"
+                    >
+                      Unlawful Use of Wireless Device
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Unver Drv Rec"
+                    >
+                      Unverifiable driving record
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Veh Out of Svc"
+                    >
+                      Vehicle out of service
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Violating Restr"
+                    >
+                      Violating Restrictions
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Wrg Side Road"
+                    >
+                      Wrong Side of Road
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Youthful Offend"
+                    >
+                      Youthful offender
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="accidentWithViolation"
+                    >
+                      Acc W / Violation?*
+                         
+                    </label>
+                  </div>
+                  <select
+                    className="inputText"
+                    disabled=""
+                    id="accidentWithViolation"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    readOnly=""
+                    required={true}
+                    value=""
+                  >
+                    <option
+                      className="form-input"
+                      value=""
+                    >
+                      Please Select
+                    </option>
+                    <option
+                      className="form-input"
+                      value="No violation"
+                    >
+                      No violation
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Acc At Fault"
+                    >
+                      Acc At Fault
+                    </option>
+                    <option
+                      className="form-input"
+                      value="Acc not at fault"
+                    >
+                      Acc not at fault
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="violationPoint"
+                    >
+                      Violation Point
+                         
+                    </label>
+                  </div>
+                  <input
+                    className="inputText"
+                    disabled="disabled"
+                    id="violationPoint"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    readOnly=""
+                    required={true}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <input
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </div>
+    </div>
+    <div
+      className="col-md-12 mt-3 text-center mb-4"
+    >
+      <button
+        className="btn btnStyle btnReject"
+        onClick={[Function]}
+        type="button"
+      >
+        Reset
+      </button>
+      <button
+        className="btn btnStyle btnPrim"
+        form="setViolationForm"
+        id="submitsetViolationForm"
+        type="submit"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="singleBox customDataTable alignBottTable"
+      >
+        <div
+          className="react-bootstrap-table"
+        >
+          <table
+            className="table"
+          >
+            <thead>
+              <tr>
+                <th
+                  style={
+                    Object {
+                      "width": "18%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Date
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "30%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Description
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "15%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  At Fault
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "10%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Points
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "10%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Source
+                </th>
+                <th
+                  style={
+                    Object {
+                      "width": "18%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  Actions
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

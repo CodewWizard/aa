@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<a
+  className="btnStyle btnPrim display-block mb-10"
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+>
+  Review UW Alerts
+</a>
+`;
+
+exports[`renders without crashing without props 1`] = `
+<a
+  className="btnStyle btnPrim display-block mb-10"
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+>
+  Review UW Alerts
+</a>
+`;

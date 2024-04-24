@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderNavigationContentSidebar renders nothing when user is not logged in 1`] = `null`;

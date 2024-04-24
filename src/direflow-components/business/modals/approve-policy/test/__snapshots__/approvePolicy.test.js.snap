@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApprovePolicy renders correctly when summary.Transaction.Type is "Endorsement" 1`] = `
+<a
+  className="btnStyle btnPrim display-block mb-10"
+  id="approvePolicyBtn"
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+>
+  Approve Endorsement
+</a>
+`;
+
+exports[`ApprovePolicy renders correctly when summary.Transaction.Type is "Policy" 1`] = `
+<a
+  className="btnStyle btnPrim display-block mb-10"
+  id="approvePolicyBtn"
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+>
+  Approve Policy
+</a>
+`;

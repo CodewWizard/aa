@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OfferQuote renders correctly 1`] = `
+<a
+  className="btnStyle btnPrim display-block mb-10"
+  id="btnAdjustPremium"
+  onClick={[Function]}
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+>
+  Approve Formal Quote
+</a>
+`;

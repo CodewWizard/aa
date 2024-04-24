@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot as expected 1`] = `
+<div
+  className="singleBox customDataTable"
+>
+  <button
+    className="react-bs-table-csv-btn btn btn-default btn btnStyle btnSecon my-3"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    Export CSV
+  </button>
+  <div
+    className="my-1"
+  >
+    <label
+      className="search-label"
+      htmlFor="search-bar-0"
+    >
+      <span
+        className="sr-only"
+        id="search-bar-0-label"
+      >
+        Search this table
+      </span>
+      <input
+        aria-labelledby="search-bar-0-label"
+        className="form-control "
+        id="search-bar-0"
+        onChange={[Function]}
+        onKeyUp={[Function]}
+        placeholder="Search"
+        style={Object {}}
+        type="text"
+        value=""
+      />
+    </label>
+    <button
+      className="btn btn-default "
+      onClick={[Function]}
+    >
+      Clear
+    </button>
+  </div>
+  <div
+    className="react-bootstrap-table"
+  >
+    <table
+      className="table table-bordered"
+    >
+      <thead>
+        <tr>
+          <th
+            style={
+              Object {
+                "width": "10%",
+              }
+            }
+            tabIndex={0}
+          >
+            TYPE
+          </th>
+          <th
+            style={
+              Object {
+                "width": "90%",
+              }
+            }
+            tabIndex={0}
+          >
+            ADDRESS
+          </th>
+          <th
+            style={
+              Object {
+                "width": "20%",
+              }
+            }
+            tabIndex={0}
+          >
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className={null}
+          style={Object {}}
+        >
+          <td>
+            Mailing Address
+          </td>
+          <td>
+            311 GA
+          </td>
+          <td>
+            <a
+              className="display-inblock actionIcon me-1"
+              data-bs-toggle="tooltip"
+              onClick={[Function]}
+              title="Edit Location"
+            >
+              Edit
+            </a>
+            ||
+            <a
+              className="display-inblock actionIcon me-1"
+              data-bs-toggle="tooltip"
+              onClick={[Function]}
+              title="Delete Location"
+            >
+              Delete
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="row react-bootstrap-table-pagination"
+  >
+    <div
+      className="col-md-6 col-xs-6 col-sm-6 col-lg-6"
+    >
+      <span
+        className="react-bs-table-sizePerPage-dropdown dropdown"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        <button
+          aria-expanded={false}
+          className="btn btn-default btn-secondary dropdown-toggle"
+          data-toggle="dropdown"
+          id="pageDropDown"
+          onBlur={[Function]}
+          onClick={[Function]}
+          type="button"
+        >
+          10
+           
+        </button>
+        <ul
+          aria-labelledby="pageDropDown"
+          className="dropdown-menu "
+          role="menu"
+        >
+          <a
+            className="dropdown-item"
+            data-page={5}
+            href="#"
+            onMouseDown={[Function]}
+            role="menuitem"
+            tabIndex="-1"
+          >
+            5
+          </a>
+          <a
+            className="dropdown-item"
+            data-page={10}
+            href="#"
+            onMouseDown={[Function]}
+            role="menuitem"
+            tabIndex="-1"
+          >
+            10
+          </a>
+          <a
+            className="dropdown-item"
+            data-page={20}
+            href="#"
+            onMouseDown={[Function]}
+            role="menuitem"
+            tabIndex="-1"
+          >
+            20
+          </a>
+          <a
+            className="dropdown-item"
+            data-page={50}
+            href="#"
+            onMouseDown={[Function]}
+            role="menuitem"
+            tabIndex="-1"
+          >
+            50
+          </a>
+          <a
+            className="dropdown-item"
+            data-page={100}
+            href="#"
+            onMouseDown={[Function]}
+            role="menuitem"
+            tabIndex="-1"
+          >
+            100
+          </a>
+        </ul>
+      </span>
+      <span
+        className="react-bootstrap-table-pagination-total"
+      >
+         Showing rows 
+        1
+         to 
+        1
+         of 
+        1
+      </span>
+    </div>
+    <div
+      className="react-bootstrap-table-pagination-list col-md-6 col-xs-6 col-sm-6 col-lg-6"
+    >
+      <ul
+        className="pagination react-bootstrap-table-page-btns-ul"
+      >
+        <li
+          className="disabled page-item"
+          title="Go to previous"
+        >
+          <a
+            className="page-link"
+            href="#"
+            onClick={[Function]}
+          >
+            Prev
+          </a>
+        </li>
+        <li
+          className="active page-item"
+          title="1"
+        >
+          <a
+            className="page-link"
+            href="#"
+            onClick={[Function]}
+          >
+            1
+          </a>
+        </li>
+        <li
+          className="disabled page-item"
+          title="Go to next"
+        >
+          <a
+            className="page-link"
+            href="#"
+            onClick={[Function]}
+          >
+            Next
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

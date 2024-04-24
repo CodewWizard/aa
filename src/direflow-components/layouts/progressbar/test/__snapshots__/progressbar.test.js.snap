@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar component should render ProgressBar component with props 1`] = `
+<div
+  className="mb-3 menuWrapper"
+>
+  <h1>
+    example
+  </h1>
+  <ul
+    className="quoteType p-0"
+  >
+    <li
+      className="inactiveLink"
+    >
+      <a
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        <label>
+          <input
+            disabled={true}
+            name="radio"
+            type="radio"
+          />
+          <span>
+            Step 1
+          </span>
+        </label>
+      </a>
+    </li>
+    <li
+      className="inactiveLink"
+    >
+      <a
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        <label>
+          <input
+            disabled={true}
+            name="radio"
+            type="radio"
+          />
+          <span>
+            Step 2
+          </span>
+        </label>
+      </a>
+    </li>
+    <li
+      className="inactiveDisble"
+    >
+      <a
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        <label>
+          <input
+            disabled={true}
+            name="radio"
+            type="radio"
+          />
+          <span>
+            Step 3
+          </span>
+        </label>
+      </a>
+    </li>
+  </ul>
+  <button
+    className="btn btnStyle btnSecon mt-5"
+    form="example-form"
+    id="pageSubmitButton"
+    type="submit"
+  >
+    CONTINUE
+  </button>
+</div>
+`;

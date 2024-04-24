@@ -1,0 +1,25 @@
+.react-datetime-picker__calendar-button {
+  position: relative; /* Make sure the button is positioned relative to its container */
+  display: block; /* Make the button a block-level element to occupy all the area in the background */
+  width: 100%; /* Set the width to 100% to occupy the entire container */
+  text-align: right; /* Align the button to the right */
+}
+
+/* To style the icon inside the button */
+.react-datetime-picker__calendar-button__icon {
+  flex-grow: 1;
+  vertical-align: middle;
+}
+
+.react-datetime-picker__inputGroup {
+  flex-grow: 0; !important;
+  min-width: 0; !important;
+}
+
+.react-datetime-picker__wrapper {
+  display: flex;
+  flex-grow: 1;!important;
+  flex-shrink: 0;
+  border: thin solid gray;
+  justify-content: space-between;
+}

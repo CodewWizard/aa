@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BindRequest component should render BindRequest component with props 1`] = `
+<a
+  className="btnStyle btnPrim display-block mb-10"
+  id="btnAdjustPremium"
+  onClick={[Function]}
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+>
+  Submit Bind Request
+</a>
+`;
+
+exports[`BindRequest component should render BindRequest component with props and match snapshots 1`] = `
+<a
+  className="btnStyle btnPrim display-block mb-10"
+  id="btnAdjustPremium"
+  onClick={[Function]}
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+>
+  Submit Bind Request
+</a>
+`;

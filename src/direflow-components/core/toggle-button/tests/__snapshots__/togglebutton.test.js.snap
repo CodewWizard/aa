@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleButtonComponent renders correctly 1`] = `
+<div
+  className="custToggle"
+>
+  <div
+    className="btn-group"
+    name="btnGrp_toggle-btn"
+    role="group"
+    value="yes"
+  >
+    <label
+      className="btn-group-label btn active btn-buttYes"
+      disabled={false}
+      id="radio-toggle-btn"
+      onClick={[Function]}
+      required={true}
+    >
+      <input
+        autoComplete="off"
+        checked={true}
+        disabled={false}
+        name="btn_toggle-btn0"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="radio"
+        value="yes"
+      />
+      Yes
+    </label>
+    <label
+      className="btn-group-label btn btn-buttNo"
+      disabled={false}
+      id="radio-toggle-btn"
+      onClick={[Function]}
+      required={true}
+    >
+      <input
+        autoComplete="off"
+        checked={false}
+        disabled={false}
+        name="btn_toggle-btn1"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="radio"
+        value="no"
+      />
+      No
+    </label>
+  </div>
+  <input
+    id="toggle-btn"
+    onInvalid={[Function]}
+    required={true}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="text"
+    value="yes"
+  />
+</div>
+`;

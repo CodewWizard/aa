@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot as expected 1`] = `
+Array [
+  <nav
+    className="mb-3 compaTabs nav nav-tabs"
+    onKeyDown={[Function]}
+    role="tablist"
+  />,
+  <div
+    className="tab-content"
+  />,
+]
+`;

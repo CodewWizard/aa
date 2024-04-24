@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render given schema correctly 1`] = `
+<div
+  className="first-table position-relative"
+>
+  <h3
+    className="m-0"
+  >
+    Transaction History
+  </h3>
+  <div
+    className="w-100"
+  >
+    <div
+      className="singleBox customDataTable"
+    >
+      <div
+        className="react-bootstrap-table"
+      >
+        <table
+          className="table"
+        >
+          <thead>
+            <tr>
+              <th
+                tabIndex={0}
+              >
+                Transaction Type
+              </th>
+              <th
+                tabIndex={0}
+              >
+                Document Type
+              </th>
+              <th
+                tabIndex={0}
+              >
+                Transaction Date
+              </th>
+              <th
+                tabIndex={0}
+              >
+                Effective Date
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              className={null}
+              style={Object {}}
+            >
+              <td>
+                Manual Upload
+              </td>
+              <td>
+                Data Submission
+              </td>
+              <td>
+                June 15th, 2023 05:13:18 AM
+              </td>
+              <td>
+                June 15th, 2023 05:13:18 AM
+              </td>
+            </tr>
+            <tr
+              className={null}
+              style={Object {}}
+            >
+              <td>
+                Application
+              </td>
+              <td>
+                Submission Data Document
+              </td>
+              <td>
+                June 15th, 2023 04:20:53 AM
+              </td>
+              <td>
+                June 15th, 2023 04:20:53 AM
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

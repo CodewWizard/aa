@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Bar Chart snapshot as expected 1`] = `
+<div
+  className="chartContainerHeighted border"
+>
+  <span
+    className="chartTitle"
+  >
+    Year-wise Transaction Count
+  </span>
+  <div
+    data={
+      Object {
+        "datasets": Array [
+          Object {
+            "backgroundColor": Array [
+              "rgba(56, 182, 255, 1)",
+              "rgba(103, 89, 162, 1)",
+              "rgba(73, 0, 50, 1)",
+            ],
+            "borderColor": Array [
+              "rgba(56, 182, 255, 1)",
+              "rgba(103, 89, 162, 1)",
+              "rgba(73, 0, 50, 1)",
+            ],
+            "borderWidth": 1,
+            "data": Array [
+              600,
+              400,
+              500,
+            ],
+            "fill": false,
+            "label": "Transaction Count",
+            "type": "bar",
+            "yAxisID": "y1",
+          },
+        ],
+        "labels": Array [
+          "2020",
+          "2021",
+          "2022",
+        ],
+      }
+    }
+    onClick={[Function]}
+    options={
+      Object {
+        "maintainAspectRatio": true,
+        "plugins": Object {
+          "legend": Object {
+            "position": "bottom",
+          },
+          "title": Object {
+            "display": false,
+            "text": "Chart.js Chart",
+          },
+        },
+        "responsive": true,
+        "scales": Object {
+          "x": Object {
+            "beginAtZero": true,
+            "grid": Object {
+              "display": false,
+              "drawBorder": false,
+              "drawOnChartArea": false,
+              "drawTicks": false,
+            },
+            "ticks": Object {
+              "display": false,
+            },
+          },
+          "y1": Object {
+            "beginAtZero": true,
+            "grid": Object {
+              "drawOnChartArea": false,
+            },
+          },
+          "y2": Object {
+            "beginAtZero": true,
+            "display": true,
+            "grid": Object {
+              "drawOnChartArea": false,
+            },
+            "max": 1,
+            "position": "right",
+            "setLineDash": Array [
+              5,
+              15,
+            ],
+            "type": "linear",
+          },
+        },
+        "stacked": false,
+      }
+    }
+    type="bar"
+  />
+</div>
+`;

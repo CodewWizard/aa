@@ -1,0 +1,1107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot as expected 1`] = `
+<div
+  className="boxWrapper border-0 px-3 commonShadow"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12 mt-3 text-center mb-4"
+    >
+      <button
+        className="btn btnStyle btnPrim"
+        form="setGenericForms"
+        id="submitsetGenericForms"
+        onClick={[Function]}
+        type="button"
+      >
+        Add
+      </button>
+    </div>
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="col-md-12"
+      >
+        <form
+          className="dynamic-form"
+          id="setGenericForms"
+          onSubmit={[Function]}
+        >
+          <div
+            className="formBox formBoxHgt mt-4"
+          >
+            <div
+              className="d-flex justify-content-between"
+            >
+              <h5
+                className="primaryColor3 graphik-Medium mb-3 commonHead commonHeadPadding"
+              >
+                Prior Driving History
+              </h5>
+            </div>
+            <div
+              className=""
+            >
+              <div
+                className="row align-items-center"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="employer"
+                    >
+                      Employer
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="employer"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter Employer"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="employmentDate"
+                    >
+                      Date of Employment
+                         
+                    </label>
+                  </div>
+                  <div
+                    className="react-datetime-picker react-datetime-picker--closed react-datetime-picker--enabled inputText"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                  >
+                    <div
+                      className="react-datetime-picker__wrapper"
+                    >
+                      <div
+                        className="react-datetime-picker__inputGroup"
+                        onClick={[Function]}
+                      >
+                        <input
+                          disabled=""
+                          max="275760-09-13T05:30"
+                          min="0001-01-01T00:00"
+                          name="datetime"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          step={60}
+                          style={
+                            Object {
+                              "position": "absolute",
+                              "visibility": "hidden",
+                              "zIndex": "-999",
+                            }
+                          }
+                          type="datetime-local"
+                          value=""
+                        />
+                        <input
+                          autoComplete="off"
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__month"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={12}
+                          min={1}
+                          name="month"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={null}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__day"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={31}
+                          min={1}
+                          name="day"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={null}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__year"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={275760}
+                          min={1}
+                          name="year"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="----"
+                          required={null}
+                          step={1}
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                      <button
+                        className="react-datetime-picker__clear-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__clear-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="4"
+                            x2="15"
+                            y1="4"
+                            y2="15"
+                          />
+                          <line
+                            x1="15"
+                            x2="4"
+                            y1="4"
+                            y2="15"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        className="react-datetime-picker__calendar-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__calendar-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            fill="none"
+                            height="15"
+                            width="15"
+                            x="2"
+                            y="2"
+                          />
+                          <line
+                            x1="6"
+                            x2="6"
+                            y1="0"
+                            y2="4"
+                          />
+                          <line
+                            x1="13"
+                            x2="13"
+                            y1="0"
+                            y2="4"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="typesOfUnitsOperated"
+                    >
+                      Typed of Units Operated
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="typesOfUnitsOperated"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter types of Units Operated"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="commoditiesHauled"
+                    >
+                      Commodities Hauled
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="commoditiesHauled"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter Commodities Hauled"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="radiusDriven"
+                    >
+                      Radius Driven
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="radiusDriven"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter Radius Driven"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div>
+                  <div
+                    className="form-group"
+                  >
+                    <button
+                      name="0.remove"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Remove
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing & matches snapshot as expected 1`] = `
+<div
+  className="boxWrapper border-0 px-3 commonShadow"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12 mt-3 text-center mb-4"
+    >
+      <button
+        className="btn btnStyle btnPrim"
+        form="setGenericForms"
+        id="submitsetGenericForms"
+        onClick={[Function]}
+        type="button"
+      >
+        Add
+      </button>
+    </div>
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="col-md-12"
+      >
+        <form
+          className="dynamic-form"
+          id="setGenericForms"
+          onSubmit={[Function]}
+        >
+          <div
+            className="formBox formBoxHgt mt-4"
+          >
+            <div
+              className="d-flex justify-content-between"
+            >
+              <h5
+                className="primaryColor3 graphik-Medium mb-3 commonHead commonHeadPadding"
+              >
+                Prior Driving History
+              </h5>
+            </div>
+            <div
+              className=""
+            >
+              <div
+                className="row align-items-center"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="employer"
+                    >
+                      Employer
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="employer"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter Employer"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="employmentDate"
+                    >
+                      Date of Employment
+                         
+                    </label>
+                  </div>
+                  <div
+                    className="react-datetime-picker react-datetime-picker--closed react-datetime-picker--enabled inputText"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                  >
+                    <div
+                      className="react-datetime-picker__wrapper"
+                    >
+                      <div
+                        className="react-datetime-picker__inputGroup"
+                        onClick={[Function]}
+                      >
+                        <input
+                          disabled=""
+                          max="275760-09-13T05:30"
+                          min="0001-01-01T00:00"
+                          name="datetime"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          step={60}
+                          style={
+                            Object {
+                              "position": "absolute",
+                              "visibility": "hidden",
+                              "zIndex": "-999",
+                            }
+                          }
+                          type="datetime-local"
+                          value=""
+                        />
+                        <input
+                          autoComplete="off"
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__month"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={12}
+                          min={1}
+                          name="month"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={null}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__day"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={31}
+                          min={1}
+                          name="day"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={null}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__year"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={275760}
+                          min={1}
+                          name="year"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="----"
+                          required={null}
+                          step={1}
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                      <button
+                        className="react-datetime-picker__clear-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__clear-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="4"
+                            x2="15"
+                            y1="4"
+                            y2="15"
+                          />
+                          <line
+                            x1="15"
+                            x2="4"
+                            y1="4"
+                            y2="15"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        className="react-datetime-picker__calendar-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__calendar-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            fill="none"
+                            height="15"
+                            width="15"
+                            x="2"
+                            y="2"
+                          />
+                          <line
+                            x1="6"
+                            x2="6"
+                            y1="0"
+                            y2="4"
+                          />
+                          <line
+                            x1="13"
+                            x2="13"
+                            y1="0"
+                            y2="4"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="typesOfUnitsOperated"
+                    >
+                      Typed of Units Operated
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="typesOfUnitsOperated"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter types of Units Operated"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="commoditiesHauled"
+                    >
+                      Commodities Hauled
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="commoditiesHauled"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter Commodities Hauled"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="radiusDriven"
+                    >
+                      Radius Driven
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="radiusDriven"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter Radius Driven"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div>
+                  <div
+                    className="form-group"
+                  >
+                    <button
+                      name="0.remove"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Remove
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div
+  className="boxWrapper border-0 px-3 commonShadow"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12 mt-3 text-center mb-4"
+    >
+      <button
+        className="btn btnStyle btnPrim"
+        form="setGenericForms"
+        id="submitsetGenericForms"
+        onClick={[Function]}
+        type="button"
+      >
+        Add
+      </button>
+    </div>
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="col-md-12"
+      >
+        <form
+          className="dynamic-form"
+          id="setGenericForms"
+          onSubmit={[Function]}
+        >
+          <div
+            className="formBox formBoxHgt mt-4"
+          >
+            <div
+              className="d-flex justify-content-between"
+            >
+              <h5
+                className="primaryColor3 graphik-Medium mb-3 commonHead commonHeadPadding"
+              >
+                Prior Driving History
+              </h5>
+            </div>
+            <div
+              className=""
+            >
+              <div
+                className="row align-items-center"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="employer"
+                    >
+                      Employer
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="employer"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter Employer"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="col-xxl-3 col-md-6 mb-4"
+                >
+                  <div
+                    className="col-md-2"
+                  >
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="employmentDate"
+                    >
+                      Date of Employment
+                         
+                    </label>
+                  </div>
+                  <div
+                    className="react-datetime-picker react-datetime-picker--closed react-datetime-picker--enabled inputText"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                  >
+                    <div
+                      className="react-datetime-picker__wrapper"
+                    >
+                      <div
+                        className="react-datetime-picker__inputGroup"
+                        onClick={[Function]}
+                      >
+                        <input
+                          disabled=""
+                          max="275760-09-13T05:30"
+                          min="0001-01-01T00:00"
+                          name="datetime"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          step={60}
+                          style={
+                            Object {
+                              "position": "absolute",
+                              "visibility": "hidden",
+                              "zIndex": "-999",
+                            }
+                          }
+                          type="datetime-local"
+                          value=""
+                        />
+                        <input
+                          autoComplete="off"
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__month"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={12}
+                          min={1}
+                          name="month"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={null}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__day"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={31}
+                          min={1}
+                          name="day"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="--"
+                          required={null}
+                          type="number"
+                          value=""
+                        />
+                        <span
+                          className="react-datetime-picker__inputGroup__divider"
+                        >
+                          -
+                        </span>
+                        <input
+                          autoComplete="off"
+                          autoFocus={false}
+                          className="react-datetime-picker__inputGroup__input react-datetime-picker__inputGroup__year"
+                          data-input="true"
+                          disabled=""
+                          inputMode="numeric"
+                          max={275760}
+                          min={1}
+                          name="year"
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyPress={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="----"
+                          required={null}
+                          step={1}
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                      <button
+                        className="react-datetime-picker__clear-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__clear-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="4"
+                            x2="15"
+                            y1="4"
+                            y2="15"
+                          />
+                          <line
+                            x1="15"
+                            x2="4"
+                            y1="4"
+                            y2="15"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        className="react-datetime-picker__calendar-button react-datetime-picker__button"
+                        disabled=""
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          className="react-datetime-picker__calendar-button__icon react-datetime-picker__button__icon"
+                          height={19}
+                          stroke="black"
+                          strokeWidth={2}
+                          viewBox="0 0 19 19"
+                          width={19}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            fill="none"
+                            height="15"
+                            width="15"
+                            x="2"
+                            y="2"
+                          />
+                          <line
+                            x1="6"
+                            x2="6"
+                            y1="0"
+                            y2="4"
+                          />
+                          <line
+                            x1="13"
+                            x2="13"
+                            y1="0"
+                            y2="4"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="typesOfUnitsOperated"
+                    >
+                      Typed of Units Operated
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="typesOfUnitsOperated"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter types of Units Operated"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="commoditiesHauled"
+                    >
+                      Commodities Hauled
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="commoditiesHauled"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter Commodities Hauled"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div>
+                    <label
+                      className="inputLabel primaryColor4 p-0"
+                      htmlFor="radiusDriven"
+                    >
+                      Radius Driven
+                         
+                    </label>
+                  </div>
+                  <input
+                    class="inputText"
+                    disabled=""
+                    id="radiusDriven"
+                    maxlength="50"
+                    minlength="2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Please enter Radius Driven"
+                    readOnly=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div>
+                  <div
+                    className="form-group"
+                  >
+                    <button
+                      name="0.remove"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Remove
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
